@@ -19,10 +19,10 @@ def create_post_file(post_title, body_text, date, post_num):
     with open(os.path.join(CONTENT_DIR, post_title), 'w') as outfile:
         outfile.write('---')
         outfile.write('layout: post')
-        outfile.write('title:  "Lorem Ipsum {}"'.format(index))
-        outfile.write('date:   {}'.format('%Y-%m-%d %H:%M:%S')
+        outfile.write('title:  "Lorem Ipsum Number {}"'.format(post_num))
+        outfile.write('date:   {}'.format('%Y-%m-%d %H:%M:%S'))
         outfile.write('---')
-        outfile.write()
+        outfile.write('')
         outfile.write(body_text)
 
 
