@@ -5,6 +5,7 @@ tagline:      Fusce pharetra egestas nisl ac lacinia
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
 
 #Others
 markdown: kramdown
