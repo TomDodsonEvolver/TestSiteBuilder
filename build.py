@@ -15,8 +15,8 @@ def create_clean_content_dir():
     os.makedirs(d)
 
 
-def create_post_file(post_title, body_text, date, post_num):
-    with open(os.path.join(CONTENT_DIR, post_title), 'w') as outfile:
+def create_post_file(file_name, body_text, date, post_num):
+    with open(os.path.join(CONTENT_DIR, file_name), 'w') as outfile:
         outfile.write('---\n')
         outfile.write('layout: post\n')
         outfile.write('title:  "Lorem Ipsum Number {}"\n'.format(post_num))
@@ -35,9 +35,10 @@ def main():
     for i in range(NUM_POSTS):
 	post_num = NUM_POSTS-i
         date = datetime.datetime.utcnow() - datetime.timedelta(days=i)
-        post_title = '{}-page{}.html'.format(date.strftime('%Y-%m-%d'), post_num)
+        file_name = '{}-page{}.md'.format(date.strftime('%Y-%m-%d'), post_num)
 
-        create_post_file(post_title, body_text, date, post_num)
+        create_post_file(file_name, body_text, date, post_num)
+
 
 if __name__ == '__main__':
     main()

@@ -9,7 +9,8 @@ gems:
 #Others
 markdown: kramdown
 
-detach:  true
+#server options
+#detach:  true
 port:    4000
 host:    0.0.0.0
 baseurl: ""
