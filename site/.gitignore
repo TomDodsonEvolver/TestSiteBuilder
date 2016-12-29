@@ -1,0 +1,5 @@
+_site
+_posts
+.bundle
+.sass-cache
+Gemfile.lock
