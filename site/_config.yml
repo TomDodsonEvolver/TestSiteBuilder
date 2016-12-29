@@ -1,7 +1,6 @@
 # Setup
 name:         Lorem IdeaEvolver Dolor Site
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
+tagline:      Fusce pharetra egestas nisl ac lacinia 
 
 # Gems
 gems:
@@ -9,3 +8,9 @@ gems:
 
 #Others
 markdown: kramdown
+
+detach:  true
+port:    4000
+host:    0.0.0.0
+baseurl: ""
+
