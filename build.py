@@ -17,12 +17,11 @@ def create_clean_content_dir():
 
 def create_post_file(post_title, body_text, date, post_num):
     with open(os.path.join(CONTENT_DIR, post_title), 'w') as outfile:
-        outfile.write('---')
-        outfile.write('layout: post')
-        outfile.write('title:  "Lorem Ipsum Number {}"'.format(post_num))
-        outfile.write('date:   {}'.format('%Y-%m-%d %H:%M:%S'))
-        outfile.write('---')
-        outfile.write('')
+        outfile.write('---\n')
+        outfile.write('layout: post\n')
+        outfile.write('title:  "Lorem Ipsum Number {}"\n'.format(post_num))
+        outfile.write('date:   {}\n'.format(date.strftime('%Y-%m-%d %H:%M:%S')))
+        outfile.write('---\n\n')
         outfile.write(body_text)
 
 
