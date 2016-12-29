@@ -1,0 +1,8 @@
+body {
+    background-color: darkorchid;
+    color: white;
+    font-family: monospace;
+    font-size: 24px;
+    margin: 3em;
+    text-shadow: 2px 2px 0px black;
+}
