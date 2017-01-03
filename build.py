@@ -5,7 +5,7 @@ from random import randint
 
 CONTENT_DIR = 'site/_posts/'
 CONTENT_BODY_TEMPLATE = '_lorem_ipsum.in'
-NUM_POSTS = 1000
+NUM_POSTS = 250
 
 def create_clean_content_dir():
     d = os.path.dirname(CONTENT_DIR)
