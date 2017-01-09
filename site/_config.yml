@@ -2,7 +2,7 @@
 name:         Lorem IdeaEvolver Dolor Site
 tagline:      Fusce pharetra egestas nisl ac lacinia 
 
-include: ["robots.txt"]
+include: ["robots.txt", "test.pdf"]
 
 # Gems
 gems:
