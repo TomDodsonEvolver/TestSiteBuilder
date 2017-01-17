@@ -1,11 +1,9 @@
 import os
 import shutil
 import datetime
-from random import randint
 
 CONTENT_DIR = 'site/_posts/'
 CONTENT_BODY_TEMPLATE = '_lorem_ipsum.in'
-NUM_POSTS = 250
 
 def create_clean_content_dir():
     d = os.path.dirname(CONTENT_DIR)
@@ -25,15 +23,15 @@ def create_post_file(file_name, body_text, date, post_num):
         outfile.write(body_text)
 
 
-def main():
+def make_content(num_posts=10):
     create_clean_content_dir()
 
     body_text = 'BODY TEXT!'
     with open(CONTENT_BODY_TEMPLATE, 'r') as infile:
         body_text = infile.read()
 
-    for i in range(NUM_POSTS):
-	post_num = NUM_POSTS-i
+    for i in range(num_posts):
+	post_num = num_posts - i
         date = datetime.datetime.utcnow() - datetime.timedelta(days=i)
         file_name = '{}-page{}.md'.format(date.strftime('%Y-%m-%d'), post_num)
 
@@ -41,4 +39,12 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Create content for a jekyll-served webpage. The total number of pages will be num_pages+2 including the static index and PDF test page.")
+    parser.add_argument('num_pages', metavar='num_pages', type=int,
+                        help='number of post pages to produce')
+    args = parser.parse_args()   
+ 
+    make_content(args.num_pages)
+
