@@ -1,11 +1,11 @@
-#Lorem ipsum
+## Lorem ipsum
 dolor sit amet, consectetur adipiscing elit. Etiam porta lorem at ligula dictum, ac vestibulum dui varius. Nunc tristique nunc arcu, nec gravida mi laoreet non. Integer tincidunt, sapien efficitur viverra vestibulum, nisl elit tristique eros, at viverra est ligula quis mauris. Duis quis felis mauris. Aenean sit amet nunc lectus. Pellentesque molestie elementum dignissim. Nunc a pellentesque justo. Donec cursus ipsum odio, malesuada tempor quam vulputate id. Nullam malesuada erat eget molestie auctor. Praesent ullamcorper elementum tellus. Suspendisse potenti. Maecenas convallis blandit justo ac dignissim. Proin eu nisl euismod, blandit odio pharetra, viverra urna.
 
-<img src="images/cat1.jpg" width="400" align="middle" alt="Cat1">
+<img src="/images/cat1.jpg" width="400" alt="Cat1">
 
-##Donec eleifend
+### Donec eleifend
 
-<img src="images/cat2.jpg" width="400" align="middle" alt="Cat2">
+<img src="/images/cat2.jpg" width="400" alt="Cat2">
 
 ex a facilisis imperdiet, ipsum purus ultrices ante, id mollis magna nisl eu augue. In at neque ultricies, iaculis lorem quis, scelerisque magna. Aliquam vitae tincidunt lectus. In sit amet faucibus sapien. Aliquam ut dui ex. Proin porttitor aliquet libero ac dictum. Vivamus rhoncus tincidunt sapien nec lobortis. Ut vestibulum ipsum non lectus gravida, vel tempor nisi laoreet. Curabitur semper arcu volutpat ipsum malesuada, vel bibendum eros convallis.
 
@@ -17,12 +17,12 @@ ex a facilisis imperdiet, ipsum purus ultrices ante, id mollis magna nisl eu aug
 > feugiat vehicula at, auctor sed enim. Aliquam erat volutpat. Nam convallis
 > dignissim turpis, sit amet sollicitudin nibh pulvinar sed.
 
-##Phasellus
+## Phasellus
 quis finibus arcu, sit amet tincidunt tortor. Phasellus interdum egestas tortor, et fermentum mi cursus quis. Vestibulum sed rutrum nulla. Integer lobortis lacus laoreet varius ultrices. Integer non lobortis odio, at imperdiet dui. In lorem felis, luctus sed elementum in, aliquam eget mauris. Maecenas sodales nisi tincidunt orci fringilla dignissim. Nullam at sem ac nunc ultricies ultrices at in dolor. Integer a cursus ipsum. Sed ultrices velit mi, ac tincidunt diam gravida in.
 
-<img src="images/cat3.jpg" width="400" align="middle" alt="Cat3">
+<img src="/images/cat3.jpg" width="400" alt="Cat3">
 
-###Phasellus maximus sapien lectus
+### Phasellus maximus sapien lectus
 posuere pretium nisl interdum non. Duis aliquet dapibus ex, sed vehicula ex tincidunt quis. Maecenas sed ipsum imperdiet, dapibus nibh nec, lacinia sem. Proin ultricies nisl nec lectus dignissim dictum eu non turpis. Nullam venenatis magna nec massa euismod dapibus. Nunc auctor convallis efficitur. Suspendisse ut lobortis sem.
 
-<img src="images/cat4.jpg" width="400" align="middle" alt="Cat4">
+<img src="/images/cat4.jpg" width="400" alt="Cat4">
