@@ -34,4 +34,5 @@ You'll need to set the `VINCENT_DEBUG_LOCALHOST_SITE` environment variable in or
 ```VINCENT_DEBUG_LOCALHOST_SITE=1 mprof run_local.py```
 
 In PyCharm, you can edit your local debug configuration to set the environment variable for the debug session.
+![ ](pycharm_config.png)
 
