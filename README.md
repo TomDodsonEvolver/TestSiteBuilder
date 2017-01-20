@@ -30,8 +30,8 @@ Now you're ready to build some pages (provide the number of pages as an argument
     jekyll serve
 ```
 
-You'll need to set the `VINCENT_TEST_LOCALHOST_SITE` environment variable in order for Vincent to know to shortcircuit proxies, etc. You can do this one of two ways. Either set the variable to true for your entire session with `export VINCENT_TEST_LOCALHOST_SITE=1`, or simply prepend the commands you want to run:
-```VINCENT_TEST_LOCALHOST_SITE=1 mprof run_local.py```
+You'll need to set the `VINCENT_DEBUG_LOCALHOST_SITE` environment variable in order for Vincent to know to shortcircuit proxies, etc. You can do this one of two ways. Either set the variable to true for your entire session with `export VINCENT_TEST_LOCALHOST_SITE=1`, or simply prepend the commands you want to run:
+```VINCENT_DEBUG_LOCALHOST_SITE=1 mprof run_local.py```
 
 In PyCharm, you can edit your local debug configuration to set the environment variable for the debug session.
 
